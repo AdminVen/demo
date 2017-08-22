@@ -30,11 +30,15 @@
 
 `$ git config --global user.email 1743088025@qq.com`
 
-9.先更新仓库,更新完后本地仓库会多一个README.md文件
+9.远程到自己上传的地址
+
+`$ git remote add origin https://github.com/AdminVen/demo.git`
+
+10.先更新仓库,更新完后本地仓库会多一个README.md文件
 
 `$ git pull -u origin master`
 
-10.推送代码
+11.推送代码
 
 `$ git push -u origin master`
 
